@@ -24,7 +24,7 @@ export type State = {
   errors?: {
     customerId?: string[];
     amount?: string[];
-    status: string[];
+    status?: string[];
   };
 };
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
